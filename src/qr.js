@@ -35,9 +35,6 @@ class Qr extends Component {
     console.error(err)
   }
   render(){
-    if(this.state.result != null){
-      var ress = this.state.result; 
-    }
     
     const previewStyle = {
       height: 240,
