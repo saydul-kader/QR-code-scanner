@@ -1,4 +1,3 @@
-import { findByLabelText } from '@testing-library/react'
 import React, { Component } from 'react'
 import QrReader from 'react-qr-scanner'
 import Result from './result'
@@ -36,11 +35,6 @@ class Qr extends Component {
     console.error(err)
   }
   render(){
-    const res = ["Hello world", "hello", "abc"]; 
-    if(this.state.result != null){
-      var ress = this.state.result; 
-      console.log(ress);
-    }
     
     const previewStyle = {
       height: 240,
